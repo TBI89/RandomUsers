@@ -1,0 +1,40 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-image: linear-gradient(45deg, #e7eaf6, #5c5470);
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 75px;
+    text-decoration: underline;
+}
+
+/* Display 3 cards in a row: */
+.card {
+    display: inline-block;
+    margin: 10px;
+    background-image: linear-gradient(45deg, #9fd3c7, #53a8b6);
+    box-shadow: 5px 5px 5px;
+    max-width: 200px;
+    height: 400px;
+}
+
+.card-text {
+    font-family: monospace;
+}
+
+.form-check {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#counterSpan {
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
